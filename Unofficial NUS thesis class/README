@@ -1,0 +1,8 @@
+The formats of dissertation/thesis for National University of Singapore's (NUS) Electrical and Computer Engineering Department is provided by the class file. This class file extends the book class and includes the following notable features - 
+1. Cover, title and abstract pages for 
+  (i) Final Year Project [fyp] 
+  (ii) Master of Engineering [meng], 
+  (iii) Qualifying Examination [qe] and 
+  (iv) Doctor of Philosophy [phd]; 
+2. List of symbols, adapted from losymbol.sty; and 
+3. List of abbreviations, using acronym.sty.
