@@ -1,0 +1,102 @@
+\documentclass[colorlink,llncs]{engpaper}
+%Primary Options
+%  article -- standard article class
+%  llncs -- lecture notes in computer science
+%  ieeejrnl-- IEEEtran (journal)
+%  ieeeconf -- IEEEtran (conference) with additional option(s):- peerreviewca
+%  sigalt -- ACM sig-alternate class
+%  acmtrans -- ACM Trans version 2m
+%Other Options
+%* colorlink -- to have colored hyperref's links
+%* blacklink -- to color hyperref's links black
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Default Packages
+%- hyperref
+%- graphicx
+%Recommended Packages
+\notllncsonly{\usepackage{amsmath}}
+\usepackage{url} 
+\usepackage{subfigure}
+\usepackage{cite}
+\usepackage{acronym}
+%\usepackage{fixme}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Input
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%Conference Information :-
+% copyright year [optional], conference name, conference year and place, crdata
+\conference{}{}{}
+
+%Title of Paper
+\title{}
+
+%Author Information
+%- May use \authorrefmark
+%- May use \titlenote for ACM, LLNCS and IEEE Journal
+%- May use \IEEEmembership for IEEE journal
+%- May use \inst for LLNCS
+%- No more than 3 authorblock is recommended
+%\numberofauthors{2}
+\author{
+%authorblock -- name, affiliation, email, footnote[optional]
+\authorblock{}{}{}
+%\notllncsonly{\and}\llncsonly{,} \authorblock{}{}{}
+%\notllncsonly{\and}\llncsonly{,} \authorblock{}{}{}
+%\titlenote{The authors are from}
+}
+%%For LLNCS only
+%May use \email to indicate email
+%May use \and to separate different institutes
+%\institute{
+%\email{}}     
+
+%\specialnotice{(Invited Paper)}  %%subtitle in ACM and LLNCS, e.g. [Extended Abstract]
+%\markboth{Some Journal ,~Vol., No.,~}{Author}
+%\pubid{0000--0000/00\$00.00~\copyright~2002 IEEE}
+\notacmtransonly{\maketitle}
+\begin{abstract}
+...
+\end{abstract}
+%%for ACM style only
+%\category{}{}{}     %%has an optional fourth input
+%\terms{}
+            
+%\listofkeywords{}
+
+%%for IEEE style only
+%\showconfinfo      %%for only IEEE conference style
+%\edics{}
+%\ieeepeerreview    
+
+\acmtransonly{\maketitle}
+\section{Introduction}
+\PARstart{T}{his}
+...
+
+\section{Conclusion}
+
+%\section*{Acknowledgment}
+
+%\IEEEtriggeratref{8}     %%IEEE style to trigger newpage at reference number
+%Bibliography :- input of style[optional], filename of BibTeX file
+%\biblio{...}
+
+%\appendix
+%\appendices
+
+%%Biography
+%photobio :- 
+% input of photo [optional], name, biography
+% can use \scalebiophoto for photofile
+%\photobio{}{}
+
+%nophotobio :-  name, biography
+%\nophotobio{}{}
+
+%\balancecolumns     %%ACM style to balance column
+%\receivednote{}      %%For ACMTrans only
+\end{document}

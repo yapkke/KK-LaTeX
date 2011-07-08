@@ -1,0 +1,10 @@
+The universal networking paper format is created to collate the following formats into one, providing ease of changing from one to another. The following formats are supported currently.
+
+   1. article -- standard article class
+   2. llncs -- lecture notes in computer science
+   3. ieeejrnl-- IEEEtran (journal)
+   4. ieeeconf -- IEEEtran (conference) with additional option(s):- peerreviewca
+   5. sigalt -- ACM sig-alternate class
+   6. acmtrans -- ACM Trans version 2m 
+
+These class files and their corresponding bibliography styles are expected to be available.
