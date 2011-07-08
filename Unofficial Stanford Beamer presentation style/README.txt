@@ -1,0 +1,1 @@
+This is an unofficial beamer template created by me, based on amendments to Till Tantau's Hannover style.

@@ -1,0 +1,46 @@
+% Copyright 2007 by ykk
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+%
+% See the file doc/licenses/LICENSE for more details.
+
+\ProvidesPackageRCS $Header: /cvsroot/latex-beamer/latex-beamer/themes/color/beamercolorthemestanford.sty,v 1.9 2007/01/28 20:48:24 tantau Exp $
+
+
+\mode<presentation>
+
+\definecolor{stanfordred}{RGB}{164,0,29}
+\definecolor{stanfordgreen}{RGB}{0,90,70}
+
+\setbeamercolor{structure}{fg=stanfordgreen}
+
+\setbeamercolor{palette primary}{fg=stanfordgreen!10,bg=stanfordred}
+\setbeamercolor{palette secondary}{fg=stanfordgreen,bg=stanfordred!75!black}
+\setbeamercolor{palette tertiary}{fg=stanfordgreen,bg=stanfordred!90}
+\setbeamercolor{palette quaternary}{fg=stanfordgreen!50!black,bg=stanfordred}
+
+\setbeamercolor{titlelike}{parent=palette quaternary}
+
+\setbeamercolor{block title}{fg=stanfordgreen,bg=stanfordred}
+\setbeamercolor{block title alerted}{use=alerted text,fg=stanfordgreen,bg=alerted text.fg!80!bg}
+\setbeamercolor{block title example}{use=example text,fg=stanfordgreen,bg=example text.fg!75!bg}
+
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.bg!25!bg}
+\setbeamercolor{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.bg!25!bg}
+\setbeamercolor{block body example}{parent=normal text,use=block title example,bg=block title example.bg!25!bg}
+
+\setbeamercolor{sidebar}{bg=stanfordred}
+  
+\setbeamercolor{palette sidebar primary}{fg=stanfordgreen}
+\setbeamercolor{palette sidebar secondary}{fg=stanfordgreen!10}
+\setbeamercolor{palette sidebar tertiary}{fg=stanfordgreen!50}
+\setbeamercolor{palette sidebar quaternary}{fg=stanfordgreen!50!black}
+
+\setbeamercolor*{separation line}{}
+\setbeamercolor*{fine separation line}{}
+
+\mode
+<all>
