@@ -1,0 +1,50 @@
+% Copyright 2007 by Till Tantau
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+%
+% See the file doc/licenses/LICENSE for more details.
+
+\ProvidesPackageRCS $Header: /cvsroot/latex-beamer/latex-beamer/themes/theme/beamerthemeSingapore.sty,v 1.10 2007/01/28 20:48:30 tantau Exp $
+
+
+\DeclareOptionBeamer{compress}{\beamer@compresstrue}
+\ProcessOptionsBeamer
+  
+
+\mode<presentation>
+
+\definecolor{nusorange}{RGB}{255,102,0}
+\setbeamercolor{section in head/foot}{bg=nusorange!25!bg}
+
+\useoutertheme[subsection=false]{miniframes}
+
+\setbeamertemplate{frametitle}[default][center]
+
+\AtBeginDocument{%
+  {
+    \usebeamercolor{section in head/foot}
+  }
+  
+  \pgfdeclareverticalshading{beamer@headfade}{\paperwidth}
+  {%
+    color(0cm)=(bg);
+    color(1.25cm)=(section in head/foot.bg)%
+  }
+
+  \setbeamercolor{section in head/foot}{bg=}
+}
+
+\addtoheadtemplate{\pgfuseshading{beamer@headfade}\vskip-1.25cm}{}
+
+\beamertemplatedotitem
+
+\pgfdeclaremask{fsu}{nuslogo}
+\pgfdeclareimage[mask=fsu,width=7cm]{nus-logo}{nuslogo}
+\logo{\vbox{\hspace*{8cm}\hbox{\pgfuseimage{nus-logo}}}}
+
+
+\mode
+<all>

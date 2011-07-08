@@ -1,0 +1,1 @@
+This is an unofficial beamer template for NUS.  The NUS logo (nuslogo.pdf) is needed for this template.  This can be found from the NUS website.  This style is adapted from Till Tantau's Singapore style.
